@@ -29,7 +29,15 @@
 .profile p {
   font-size: 25px;
 }
+.typewriter {
+  border-right: 0.08em solid #000;
+  animation: blink-caret 0.7s step-end infinite;
+}
 
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
 /* Responsive styles */
 @media (max-width: 100px) {
   .ProfileImg {
