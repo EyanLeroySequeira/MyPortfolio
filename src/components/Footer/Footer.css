@@ -1,0 +1,72 @@
+#footer {
+    color: wheat;
+    background-color: rgb(39, 31, 31);
+    padding: 30px 100px;
+    width: 100wh    ;
+    /* height: 40vh; */
+    /* margin-top: -30px; */
+}
+
+.footenquery {
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+
+}
+
+#contactInfo p {
+
+    font-size: 16px;
+}
+
+#contactInfo a {
+    font-size: 30px;
+
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#contactInfo p #Instagram {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+
+}
+
+#LinkedIn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: #0077B5;
+    /* LinkedIn's official blue color */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+#contactInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 300px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
