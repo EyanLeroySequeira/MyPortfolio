@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import profilePhoto from "./profilePhto.jpg"; // Ensure the correct path to the image file
 import './Navbar.css';
-import { FaBars } from 'react-icons/fa'; // Import the icon from react-icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FaBars } from 'react-icons/fa'; // Import the icon from react-icons
 
 export const Navbar = () => {
     const [activeLink, setActiveLink] = useState('#home'); // Default active link
@@ -29,7 +31,7 @@ export const Navbar = () => {
                     </a>
                 </div>
                 <div className="menu-icon" onClick={handleMenuToggle}>
-                <FaBars style={{ fontSize: '35px' }} />
+                <FontAwesomeIcon icon={faBars} />
                 </div>
                 <div className={`navbar ${showMenu ? 'active' : ''}`}>
                     <ul id="navbar">
