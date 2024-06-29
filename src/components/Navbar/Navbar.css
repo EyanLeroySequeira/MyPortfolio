@@ -51,6 +51,7 @@ nav {
 .menu-icon {
     display: none; /* Initially hide menu icon */
     color:#e8ff1c;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 900px) {
