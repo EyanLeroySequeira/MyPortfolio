@@ -35,7 +35,7 @@ function useTypewriterEffect(strings, delay = 2000) {
 
 export function Profile() {
   const [isVisible, setIsVisible] = useState(true);
-  const typedText = useTypewriterEffect(['CSE student', '2nd year']);
+  const typedText = useTypewriterEffect(['CSE student', '3nd year']);
 
   useEffect(() => {
     if (!isVisible) {
